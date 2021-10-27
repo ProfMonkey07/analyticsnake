@@ -11,7 +11,7 @@ def avg(a):
 
 
 #finds standard deviation, the average of how much things deviate from the average
-def smplstandarddev(a):
+def deviation(a):
     av = avg(a)
     variance = 0
     count = len(a)
@@ -38,7 +38,7 @@ def correlation(a, b):
    r = totals / (len(a) - 1)
    return(r) 
 
-def linearequation(a, b):
+def linear(a, b):
     yint = 0
     m = (a[1] - a[0]) / (b[1] - b[0])
     i = 0
